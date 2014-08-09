@@ -9,6 +9,7 @@ See:
 - https://github.com/cucumber/cucumber-jvm/blob/master/examples/java-webbit-websockets-selenium/src/test/java/cucumber/examples/java/websockets/SharedDriver.java
 - http://www.coveros.com/cucumber-jvm-setup/ Cucumber JVM setup
 - http://roadtoautomation.blogspot.co.uk/2013/11/java-webdriver-bdd-framework-using.html
+- http://zsoltfabok.com/blog/2011/12/cucumber-jvm-more-scenarios/ Cucumber JVM scenarios
 
 - http://cukes.info/
 - Introductory article about using Cucumber for web testing http://www.ibm.com/developerworks/opensource/library/a-automating-ria/index.html

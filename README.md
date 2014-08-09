@@ -29,3 +29,7 @@ Other related projects:
 - [frisby.js](http://frisbyjs.com/) A node.js based framework for testing REST APIs that uses jasmine.
 - Scala and Dispatch for testing REST APIs http://blog.xebia.com/2011/11/26/easy-breezy-restful-service-testing-with-dispatch-in-scala/
 - Which Scala framework to use for testing REST APIs http://stackoverflow.com/questions/10533554/which-scala-framework-to-use-for-testing-rest-services Similar question http://stackoverflow.com/questions/21703277/rest-api-integration-tests-with-java-scala-groovy
+
+# Tools to make JSON testing easier
+
+- [JsonAssert](https://github.com/skyscreamer/JSONassert) Write JSON tests in less code [Documentation](http://jsonassert.skyscreamer.org/)

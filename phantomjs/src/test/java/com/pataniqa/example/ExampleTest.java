@@ -1,3 +1,4 @@
+package com.pataniqa.example;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
