@@ -27,19 +27,19 @@ public class YoutubeSteps {
 		logger.info("Response = " + json_response.toString());
 	}
 
-	@Then("^title should be \"(.+)\"")
-	public void title_should_be(String expected_title) {
+	@Then("^the title should be: \"([^\"]*)\"$")
+	public void the_title_should_be(String expected_title) {
 		logger.info("Checking title is " + expected_title);
 		json_response.then()
 		.body("entry.title.$t",
 				equalTo(expected_title));
 	}
 	
-	@Then("^category should be \"(.+)\"")
-	public void category_should_be(String expected_category) {
+	@Then("^the category should be: \"([^\"]*)\"$")
+	public void the_category_should_be(String expected_category) {
 		logger.info("Checking category is " + expected_category);
 		json_response.then()
-		.body("entry.media$group.media$category.label",
+		.body("entry.media$group.media$category.label[0]",
 				equalTo(expected_category));
 	}
 }
