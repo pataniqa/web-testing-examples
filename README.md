@@ -65,8 +65,8 @@ Another pattern is we were talking about testing the deployed app. If the deploy
 
 There are a few blog posts that compare different frameworks:
 
-- Spock plus Geb versus the Robot Framework: http://stackoverflow.com/questions/16479539/spock-geb-vs-robot-framework
-- rest-assured versus Jersey-Test-Framework: http://www.hascode.com/2011/09/rest-assured-vs-jersey-test-framework-testing-your-restful-web-services/
+- [Spock plus Geb versus the Robot Framework](http://stackoverflow.com/questions/16479539/spock-geb-vs-robot-framework)
+- [rest-assured versus Jersey-Test-Framework](http://www.hascode.com/2011/09/rest-assured-vs-jersey-test-framework-testing-your-restful-web-services/)
 
 # Examples
 
