@@ -30,7 +30,7 @@ Test code can get ugly quick, it has a maintenance cost and it can impact the sp
 
 Although behavior driven design tools are touted as a different "behavior driven" approach to creating software, they can also help with simplifying the test code and making it more maintainable. 
 
-There is a [nice post on Java ranch](http://www.coderanch.com/t/619414/design/BDD-Action-frameworks) that makes a distinction between higher level BDD tools such as [JBehave](http://jbehave.org/), [cucumber](http://cukes.info/) and[Cucumber-JVM](https://github.com/cucumber/cucumber-jvm), [EasyB](http://easyb.org/) and [Thucydides](http://www.thucydides.info/) and TDD-style tools such as [Spock](http://code.google.com/p/spock) or [Specs2](http://etorreborre.github.io/specs2/). 
+There is a [nice post on Java ranch](http://www.coderanch.com/t/619414/design/BDD-Action-frameworks) that makes a distinction between higher level BDD tools such as [JBehave](http://jbehave.org/), [cucumber](http://cukes.info/) and [Cucumber-JVM](https://github.com/cucumber/cucumber-jvm), [EasyB](http://easyb.org/) and [Thucydides](http://www.thucydides.info/) and TDD-style tools such as [Spock](http://code.google.com/p/spock) or [Specs2](http://etorreborre.github.io/specs2/). 
 
 [Testatoo](http://www.testatoo.org/) is a high level BDD tool written in Java that is designed explicitly to write tests for Selenium / Webdriver. 
 
