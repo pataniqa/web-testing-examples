@@ -1,9 +1,5 @@
 package com.pataniqa.example;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-
-import org.json.JSONException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import cucumber.api.java.en.*;
@@ -19,20 +15,20 @@ public class YoutubeSteps {
 	private String youtube_url;
 	private Response json_response;
 
-	@Given("^I query movie by \"(.*)?\"$")
-	public void I_query_movie_by_title(String key) throws UnsupportedEncodingException {
+	@Given("^I query video by \"(.*)?\"$")
+	public void I_query_video_by(String key) {
 		youtube_url = "https://gdata.youtube.com/feeds/api/videos/" + key + "?alt=json";
 		logger.info("http query = " + youtube_url);
 	}
 
 	@When("^I make the rest call$")
-	public void I_make_the_rest_call() throws IOException, JSONException {
+	public void I_make_the_rest_call() {
 		json_response = get(youtube_url);
 		logger.info("Response = " + json_response.toString());
 	}
 
 	@Then("^title should be \"(.+)\"")
-	public void response_should_contain_JSON(String expected_title) throws JSONException {
+	public void title_should_be(String expected_title) {
 		logger.info("Checking title is " + expected_title);
 		json_response.then()
 		.body("entry.title.$t",
@@ -40,7 +36,7 @@ public class YoutubeSteps {
 	}
 	
 	@Then("^category should be \"(.+)\"")
-	public void response_should_contain(String expected_category) throws JSONException {
+	public void category_should_be(String expected_category) {
 		logger.info("Checking category is " + expected_category);
 		json_response.then()
 		.body("entry.media$group.media$category.label",
