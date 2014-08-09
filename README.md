@@ -34,7 +34,11 @@ There is a [nice post on Java ranch](http://www.coderanch.com/t/619414/design/BD
 
 [Testatoo](http://www.testatoo.org/) is a high level BDD tool written in Java that is designed explicitly to write tests for Selenium / Webdriver. 
 
-There are blog posts with examples of using both Cucumber-JVM and Spock to test REST apis and REST websites. I have created some simple examples of using Cucumber-JVM with Rest-Assured and with Selenium / PhantomJS.
+There are blog posts with examples of using both Cucumber and Spock to test REST APIs and web pages:
+- [Using Cucumber-JVM to test REST APIs](http://clearqa.blogspot.co.uk/2013/04/fun-with-cucumber-jvm-bdd.html)
+- [Using Cucumber-JVM with Selenium](http://roadtoautomation.blogspot.co.uk/2013/11/java-webdriver-bdd-framework-using.html)
+- [Using Spock to test REST apis](http://groovy.dzone.com/articles/spock-and-testing-restful-api)
+- [Using Spock and Selenium](http://timezra.blogspot.co.uk/2012/01/bdd-with-spock-and-selenium.html)
 
 ## Other languages
 
