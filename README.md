@@ -5,6 +5,7 @@ Demonstrates different tools for testing REST APIs including
 
 - [selenium](http://www.seleniumhq.org/)
     - [fluentlenium](https://github.com/FluentLenium/FluentLenium)
+    - [selenide](http://selenide.org/) A wrapper for Selenium Webdriver that simplifies the API.
     - [seleniumide](http://docs.seleniumhq.org/projects/ide/)
     - [selunit](https://code.google.com/p/selunit/) Selunit provides a flexible Maven plugin for executing Selenese HTML test suites (default Selenium IDE format) in batch and outputs test results in JUnit format. 
 - [geb](http://www.gebish.org/) Geb is a browser automation solution. It brings together the power of WebDriver, the elegance of jQuery content selection, the robustness of Page Object modelling and the expressiveness of the Groovy language.
