@@ -11,6 +11,7 @@ Demonstrates different tools for testing REST APIs including
 - [phantomjs](http://phantomjs.org/)
 - [rest-assured](https://code.google.com/p/rest-assured/)
 - [spock](http://code.google.com/p/spock)
+- [restdriver](https://github.com/rest-driver/rest-driver)
 
 - [cucumber](http://cukes.info/)
 
@@ -26,3 +27,5 @@ Other related projects:
 - [Simplelenium](https://github.com/dgageot/simplelenium) [Introduction](http://blog.javabien.net/2014/04/15/simplelenium-writing-robust-tests-with-selenium/) It's a prototype for writing tests using Selenium and PhantomJS which is more robust than standard Selenium drivers.
 - [Testatoo](https://github.com/Ovea/testatoo) DSL for writing web user interfaces tests. See the [project page](https://github.com/Ovea/testatoo).
 - [frisby.js](http://frisbyjs.com/) A node.js based framework for testing REST APIs that uses jasmine.
+- Scala and Dispatch for testing REST APIs http://blog.xebia.com/2011/11/26/easy-breezy-restful-service-testing-with-dispatch-in-scala/
+- Which Scala framework to use for testing REST APIs http://stackoverflow.com/questions/10533554/which-scala-framework-to-use-for-testing-rest-services Similar question http://stackoverflow.com/questions/21703277/rest-api-integration-tests-with-java-scala-groovy
