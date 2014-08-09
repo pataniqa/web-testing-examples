@@ -11,11 +11,25 @@ import org.slf4j.LoggerFactory;
 
 import cucumber.api.java.en.*;
 
+import cucumber.api.java.*;
+
 public class BingSteps {
 	
 	final Logger logger = LoggerFactory.getLogger(BingSteps.class);
 	
-	WebDriver driver = new PhantomJSDriver();
+	WebDriver driver;
+
+	// need to quit webdriver at the end of the test or it will be left running
+	
+	@Before
+	public void before() {
+		driver = new PhantomJSDriver();
+	}
+	
+	@After
+	public void after() {
+		driver.quit();
+	}
 
 	@Given("^I am on the Bing home page$")
 	public void I_am_on_the_Bing_home_page(){
