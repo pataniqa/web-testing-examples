@@ -36,9 +36,11 @@ There is a [nice post on Java ranch](http://www.coderanch.com/t/619414/design/BD
 
 There are blog posts with examples of using both Cucumber and Spock to test REST APIs and web pages:
 - [Using Cucumber-JVM to test REST APIs](http://clearqa.blogspot.co.uk/2013/04/fun-with-cucumber-jvm-bdd.html)
+- [Cucumber and rest-assured](http://thomassundberg.wordpress.com/2012/11/01/a-restful-web-service/)
 - [Using Cucumber-JVM with Selenium](http://roadtoautomation.blogspot.co.uk/2013/11/java-webdriver-bdd-framework-using.html)
 - [Using Spock to test REST apis](http://groovy.dzone.com/articles/spock-and-testing-restful-api)
 - [Using Spock and Selenium](http://timezra.blogspot.co.uk/2012/01/bdd-with-spock-and-selenium.html)
+- [Using Spock with Geb](https://github.com/plsgogame/geb-gradle)
 
 ## Other languages
 
@@ -48,6 +50,7 @@ If you are prepared to go with non-JVM based solutions then there are possibilit
 - [Jasmine](http://jasmine.github.io/) Popular BDD framework for Javascript.
 - [frisby.js](http://frisbyjs.com/) A node.js based framework for testing REST APIs that uses jasmine.
 - [cucumber](http://cukes.info/)
+- [Ruby rest-assured](https://github.com/BBC/REST-assured) Confusingly the BBC developed a different Ruby library also called rest-assured.
 
 # Useful patterns
 
