@@ -1,4 +1,5 @@
 package com.pataniqa.example;
+
 import org.junit.Test;
 
 import static org.fest.assertions.Assertions.assertThat;
