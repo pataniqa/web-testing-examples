@@ -72,11 +72,11 @@ There are a few blog posts that compare different frameworks:
 
 I have put together some simple "hello-world" examples for
 
-- Testing the Youtube webservice using rest-assured.
-- Testing Google.com using PhantomJS and the basic Selenium / Webdriver API.
-- Testing Bing.com using Fluentlenium, a wrapper around Selenium / Webdriver.
-- Testing the Youtube API using Cucumber-JVM / rest-assured.
-- Testing the Bing.com using Cucumber-JVM, PhantomJS, Selenium / Webdriver API.
+- [Testing the Youtube webservice using rest-assured](https://github.com/pataniqa/web-testing-examples/tree/master/rest-assured).
+- [Testing Google.com using PhantomJS and the basic Selenium / Webdriver API](https://github.com/pataniqa/web-testing-examples/tree/master/phantomjs).
+- [Testing Bing.com using Fluentlenium, a wrapper around Selenium / Webdriver](https://github.com/pataniqa/web-testing-examples/tree/master/fluentlenium).
+- [Testing the Youtube API using Cucumber-JVM / rest-assured](https://github.com/pataniqa/web-testing-examples/tree/master/cucumber).
+- [Testing the Bing.com using Cucumber-JVM, PhantomJS, Selenium / Webdriver API](https://github.com/pataniqa/web-testing-examples/tree/master/cucumber).
 
 So clearly it is possible to combine these different tools together.
 
