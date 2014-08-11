@@ -63,6 +63,10 @@ Here when testing an operation - in my case performs data extraction, in your ca
 
 Obviously this isn't as flexible as some other approaches, but it is possible to write a lot of test cases quickly using the pattern. Also I like being able to "eyeball" the expected result - sometimes that's easier then looking at some test code and having to remember what it is testing for.
 
+There are some small niggles with this approach: if you are using time / timestamping in the result you need to filter that out, and also you need a canonical serialization order for the JSON / XML.
+
+I have a custom JUnit runner to support this approach I can share.
+
 ## Database fixtures
 
 Another pattern is we were talking about testing the deployed app. If the deployed app is a live service, then the data is changing. A common idea in the ROR world is a fixture which means sample data. So it might be helpful to deploy a version of the latest code against a fixture. This can might make testing easier and more repeatable. It also lets you tear down the fixture and repopulate the data at the end of the run.
