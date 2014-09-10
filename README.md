@@ -3,7 +3,7 @@ web-testing-examples
 
 # Testing components
 
-We determined you have three specific requirements:
+The examples here cover three different problems:
 
 - testing REST APIs
 - testing web pages
@@ -13,7 +13,7 @@ We determined you have three specific requirements:
 
 Tools for writing REST APIs make it easy to do HTTP calls and provide ways of writing assertions about JSON or XML documents.
 
-The [rest-assured](https://code.google.com/p/rest-assured/) tool you have already identified looks pretty good tool to do this kind of thing.  [Rest-Driver](https://github.com/rest-driver/rest-driver) developed by Nokia Music or [RESTFuse](http://developer.eclipsesource.com/restfuse/) do similar things. There are several blog posts about how to test REST APIs with Spock or Cumcumber-JVM. They use tools such as [JsonAssert](https://github.com/skyscreamer/JSONassert) although only solves part of the problem.
+The [rest-assured](https://code.google.com/p/rest-assured/) tool looks pretty good tool to do this kind of thing.  [Rest-Driver](https://github.com/rest-driver/rest-driver) developed by Nokia Music or [RESTFuse](http://developer.eclipsesource.com/restfuse/) do similar things. There are several blog posts about how to test REST APIs with Spock or Cumcumber-JVM. They use tools such as [JsonAssert](https://github.com/skyscreamer/JSONassert) although only solves part of the problem.
 
 ## Testing web pages
 
@@ -59,7 +59,7 @@ Here are two patterns that might be relevant to the testing REST APIs and web pa
 
 One pattern I used a lot in web crawling and data extraction framework I wrote I used "golden files" for test cases. 
 
-Here when testing an operation - in my case performs data extraction, in your case call a web API - I have files that record the input and output. For each test, the test runner runs the test, but if a canonical result (the "golden file") does not exist it, it saves the output as a "candidate" golden file. Then the tester can inspect the output, check it is correct. Once the output is accepted, it is committed to source control. This is primarily a way of checking further changes don't cause regressions. 
+Here when testing an operation I have files that record the input and output. For each test, the test runner runs the test, but if a canonical result (the "golden file") does not exist it, it saves the output as a "candidate" golden file. Then the tester can inspect the output, check it is correct. Once the output is accepted, it is committed to source control. This is primarily a way of checking further changes don't cause regressions. 
 
 Obviously this isn't as flexible as some other approaches, but it is possible to write a lot of test cases quickly using the pattern. Also I like being able to "eyeball" the expected result - sometimes that's easier then looking at some test code and having to remember what it is testing for.
 
@@ -69,7 +69,7 @@ I have a custom JUnit runner to support this approach I can share.
 
 ## Database fixtures
 
-Another pattern is we were talking about testing the deployed app. If the deployed app is a live service, then the data is changing. A common idea in the ROR world is a fixture which means sample data. So it might be helpful to deploy a version of the latest code against a fixture. This can might make testing easier and more repeatable. It also lets you tear down the fixture and repopulate the data at the end of the run.
+When testing the deployed app, If the deployed app is a live service, then the data is changing. A common idea in the ROR world is a fixture which means sample data. So it might be helpful to deploy a version of the latest code against a fixture. This can might make testing easier and more repeatable. It also lets you tear down the fixture and repopulate the data at the end of the run.
 
 # Comparisons
 
